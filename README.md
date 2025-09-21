@@ -22,6 +22,14 @@ cd finn
 pip install -r requirements.txt
 `
 
+`
+export VITIS_PATH=/tools/Xilinx/Vitis/2024.1
+`
+
+`
+export VIVADO_PATH=/tools/Xilinx/Vivado/2024.1
+`
+
 ## Install finn example repository
 
 ### Add Docker's official GPG key:
