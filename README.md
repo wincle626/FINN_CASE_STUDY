@@ -1,36 +1,6 @@
 # FINN_CASES_STUDY
 
-## Install from finn repository
-
-`
-python3 -m venv pyvenv
-`
-
-`
-source pyvenv/bin/activate
-`
-
-`
-git clone https://github.com/Xilinx/finn.git
-`
-
-`
-cd finn
-`
-
-`
-pip install -r requirements.txt
-`
-
-`
-export VITIS_PATH=/tools/Xilinx/Vitis/2024.1
-`
-
-`
-export VIVADO_PATH=/tools/Xilinx/Vivado/2024.1
-`
-
-## Install finn example repository
+## Install docker
 
 ### Add Docker's official GPG key:
 `
@@ -80,3 +50,36 @@ sudo systemctl start docker
 `
 sudo docker run hello-world
 `
+
+
+## Install from finn repository
+
+`
+python3 -m venv pyvenv
+`
+
+`
+source pyvenv/bin/activate
+`
+
+`
+git clone https://github.com/Xilinx/finn.git
+`
+
+`
+cd finn
+`
+
+`
+pip install -r requirements.txt
+`
+
+`
+export VITIS_PATH=/tools/Xilinx/Vitis/2024.1
+`
+
+`
+export VIVADO_PATH=/tools/Xilinx/Vivado/2024.1
+`
+
+## Install finn example repository
