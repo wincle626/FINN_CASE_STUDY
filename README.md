@@ -12,3 +12,5 @@ cd finn
 `
 pip install -r requirements.txt
 `
+
+## Install finn example repository
