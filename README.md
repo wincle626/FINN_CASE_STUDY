@@ -137,3 +137,7 @@ pip install -r finn/requirements.txt
 `
 pip install brevitas pytest torch torchvision
 `
+
+`
+pip install -e finn
+`
