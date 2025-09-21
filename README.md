@@ -1,6 +1,15 @@
 # FINN_CASES_STUDY
 
 ## Install from finn repository
+
+`
+python3 -m venv pyvenv
+`
+
+`
+source pyvenv/bin/activate
+`
+
 `
 git clone https://github.com/Xilinx/finn.git
 `
