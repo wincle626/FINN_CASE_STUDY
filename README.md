@@ -110,6 +110,18 @@ export FINN_XILINX_VERSION=2024.1
 `
 
 `
+sudo usermod -aG docker $USER
+`
+
+`
+newgrp docker
+`
+
+`
+source pyvenv/bin/activate
+`
+
+`
 run_docker.sh
 `
 
