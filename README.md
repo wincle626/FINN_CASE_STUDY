@@ -31,6 +31,8 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 `
 
+### Install through apt:
+
 `
 sudo apt-get update
 `
@@ -38,6 +40,22 @@ sudo apt-get update
 `
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 `
+
+### Non-root dokcer
+
+`
+sudo groupadd docker
+`
+
+`
+sudo usermod -aG docker $USER
+`
+
+`
+newgrp docker
+`
+
+### Test docker installation
 
 `
 sudo systemctl status docker
@@ -50,7 +68,6 @@ sudo systemctl start docker
 `
 sudo docker run hello-world
 `
-
 
 ## 2. Install from finn repository
 
