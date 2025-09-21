@@ -1,6 +1,6 @@
 # FINN_CASES_STUDY
 
-## Install docker
+## 1. Install docker
 
 ### Add Docker's official GPG key:
 `
@@ -52,7 +52,7 @@ sudo docker run hello-world
 `
 
 
-## Install from finn repository
+## 2. Install from finn repository
 
 `
 python3 -m venv pyvenv
@@ -82,4 +82,4 @@ export VITIS_PATH=/tools/Xilinx/Vitis/2024.1
 export VIVADO_PATH=/tools/Xilinx/Vivado/2024.1
 `
 
-## Install finn example repository
+## 3. Test finn example repository
