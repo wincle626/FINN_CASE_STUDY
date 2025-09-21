@@ -1,5 +1,7 @@
 # FINN_CASES_STUDY
 
+# Finn Docker Execution
+
 ## 1. Install docker
 
 ### Add Docker's official GPG key:
@@ -69,7 +71,7 @@ sudo systemctl start docker
 sudo docker run hello-world
 `
 
-## 2. Install from finn repository
+## 2. Run from finn docker
 
 `
 python3 -m venv pyvenv
@@ -107,4 +109,31 @@ export FINN_XILINX_PATH=/tools/Xilinx
 export FINN_XILINX_VERSION=2024.1
 `
 
-## 3. Test finn example repository
+`
+run_docker.sh
+`
+
+
+# Finn Python Execution
+
+## 1. Install Finn
+
+`
+python3 -m venv pyvenv
+`
+
+`
+source pyvenv/bin/activate
+`
+
+`
+git clone https://github.com/Xilinx/finn.git
+`
+
+`
+pip install -r finn/requirements.txt
+`
+
+`
+pip install brevitas pytest torch torchvision
+`
