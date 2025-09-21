@@ -99,4 +99,12 @@ export VITIS_PATH=/tools/Xilinx/Vitis/2024.1
 export VIVADO_PATH=/tools/Xilinx/Vivado/2024.1
 `
 
+'
+export FINN_XILINX_PATH=/tools/Xilinx
+`
+
+`
+export FINN_XILINX_VERSION=2024.1
+`
+
 ## 3. Test finn example repository
